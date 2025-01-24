@@ -1,0 +1,83 @@
+name="Eric"
+Eric=f"Hello {name}, would you like to learn some Python today?"
+print(Eric)
+Eric="eric"
+upper_Eric=Eric.upper()
+print(upper_Eric)
+lower_Eric=Eric.lower()
+print(lower_Eric)
+title_Eric=Eric.title()
+print(title_Eric)
+"王侯将相宁有种乎"
+famous_person="陈胜："
+message="王侯将相宁有种乎"
+print(famous_person+message)
+chen_sheng="\t\n  陈胜吴广 "
+print(chen_sheng)
+print(chen_sheng.lstrip())
+print(chen_sheng.rstrip())
+print(chen_sheng.strip())
+filename='python_notes.txt'
+wa=filename
+print(wa.removesuffix(".txt"))
+numbers=1
+number=f"我最喜欢的数字是{numbers}"
+print(number)
+names=["a","b","c","d"]
+print(names[0])
+print(names[1])
+print(names[2])
+print(names[3])
+print(f"你好{names[0]}")
+print(f"你好{names[1]}")
+print(f"你好{names[2]}")
+print(f"你好{names[3]}")
+commute_methods = ["motorcycle", "car", "bicycle", "subway"]
+print(f"I would like to own a Honda {commute_methods[0]}.")
+print(f"I prefer driving a Tesla {commute_methods[1]} for commuting.")
+print(f"Riding a {commute_methods[2]} is a great way to commute and stay fit.")
+print(f"Taking the {commute_methods[3]} is convenient during rush hours.")
+people=["虞书欣","田曦薇","杨紫","范帅琦"]
+dinner="一起吃个晚饭吧"
+print(f"{dinner}{people[0]}")
+print(f"{dinner}{people[1]}")
+print(f"{dinner}{people[2]}")
+print(f"{dinner}{people[3]}")
+print(people[3])
+people[3]="高允贞"
+print(people)
+print(f"{dinner}{people[0]}")
+print(f"{dinner}{people[1]}")
+print(f"{dinner}{people[2]}")
+print(f"{dinner}{people[3]}")
+print(f"我找到了一个更大的餐桌@{people[0]}")
+print(f"我找到了一个更大的餐桌@{people[1]}")
+print(f"我找到了一个更大的餐桌@{people[2]}")
+print(f"我找到了一个更大的餐桌@{people[3]}")
+people.insert(0,"李知恩")
+people.insert(1,"韩孝周")
+people.append("斐秀智")
+dinner="一起吃个晚饭吧"
+print(f"{dinner}{people[0]}")
+print(f"{dinner}{people[1]}")
+print(f"{dinner}{people[3]}")
+print(f"{dinner}{people[4]}")
+print(f"{dinner}{people[5]}")
+print(f"{dinner}{people[6]}")
+print(f"{dinner}{people[2]}")
+print("我只能邀请两位吃饭")
+deal=people.pop(0)
+print(f"我很抱歉，无法邀请你共进晚餐{deal}")
+deal=people.pop(1)
+print(f"我很抱歉，无法邀请你共进晚餐{deal}")
+deal=people.pop(2)
+print(f"我很抱歉，无法邀请你共进晚餐{deal}")
+deal=people.pop(3)
+print(f"我很抱歉，无法邀请你共进晚餐{deal}")
+deal=people.pop(-1)
+print(f"我很抱歉，无法邀请你共进晚餐{deal}")
+print(f"一起吃个饭吧{people[1]}")
+print(f"一起吃个饭吧{people[0]}")
+people.pop(0)
+people.pop(0)
+print(people)
